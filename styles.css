@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+}
+
+body{
+	background: url('bg.jpg') no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 2px;
+}
+
+.wrapper h1{
+	margin-bottom: 40px;
+	font-size: 42px;
+	color: #fff;
+}
+
+.wrapper p{
+	margin-bottom: 40px;
+	color: #b2b2b2;
+	font-size: 20px;
+}
+
+.newsletter{
+	max-width: 550px;
+	width: 100%;
+	position: relative;
+}
+
+.newsletter .input{
+	width: 100%;
+	padding: 30px 100px 30px 60px;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+
+.newsletter .fas{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);	
+	left: 20px;
+	font-size: 20px;
+}
+
+.newsletter .btn{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 30px;
+	background: #4dabf7;
+	padding: 15px 20px;
+	border-radius: 25px;
+	font-size: 12px;
+	letter-spacing: 5px;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+}
